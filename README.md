@@ -13,9 +13,11 @@ O site será um shop B2B e B2C, oferecendo os seguintes serviços:
 Atualmente, estamos na primeira etapa: idealização e prototipagem do projeto. Já desenvolvemos os wireframes que mostram como o site será estruturado:
 
 Wireframe Desktop:
+
 <img src="./Frame.png" />
 
 Wireframe Mobile:
+
 <img src="./Screenshot 2025-08-27 at 23-54-13 GR Soluções Gráficas.png" />
 
 Os wireframes foram criados no Figma.
