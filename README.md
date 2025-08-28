@@ -8,6 +8,10 @@ O site se trata de um shop B2B e B2C, há os seguintes serviços:
 * Produtos populares da gráfica (com preços e descrições).
 * Soluções gráficas para empresas (B2B) — serviços recorrentes.
 
-Atualmente, estamos tratando da primeira parte, a idealização e prototipo do projeto. Fizemos o wireframe de como será o site
+Atualmente, estamos tratando da primeira parte, a idealização e prototipo do projeto. Fizemos o wireframe de como será o site: 
+
+<img src="./Frame.png" />
+
+Wireframe para Mobile: 
 
 <img src="./Frame.png" />
