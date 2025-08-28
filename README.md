@@ -10,4 +10,4 @@ O site se trata de um shop B2B e B2C, há os seguintes serviços:
 
 Atualmente, estamos tratando da primeira parte, a idealização e prototipo do projeto. Fizemos o wireframe de como será o site
 
-<img src=".frame.png" />
+<img src=".Frame.png" />
