@@ -14,4 +14,4 @@ Atualmente, estamos tratando da primeira parte, a idealização e prototipo do p
 
 Wireframe para Mobile: 
 
-<img src="./Frame.png" />
+<img src="./Screenshot 2025-08-27 at 23-54-13 GR Soluções Gráficas.png" />
