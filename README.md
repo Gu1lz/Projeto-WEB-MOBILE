@@ -25,7 +25,6 @@ Os wireframes foram criados no Figma.
 Na construção da página, desenvolvemos uma experiência fluida para o cliente, com foco na simplicidade. Além disso, garantimos a responsividade do site em dispositivos móveis e contamos a história da gráfica por meio da página "Sobre".
 
 <img width="1915" height="902" alt="image" src="https://github.com/user-attachments/assets/8b66e96a-876d-47e1-b3a8-f99914bfbca7" />
-<img width="1915" height="906" alt="image" src="https://github.com/user-attachments/assets/5dac775d-45e2-4cae-b334-56269c01d278" />
 <img width="1886" height="661" alt="image" src="https://github.com/user-attachments/assets/1175ef74-a4b0-4a96-b137-ce9b3ea5466e" />
 <img width="1893" height="883" alt="image" src="https://github.com/user-attachments/assets/4125d598-7909-4151-aeb4-9f1a6f712bc5" />
 
