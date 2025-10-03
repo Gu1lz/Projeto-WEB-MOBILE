@@ -10,22 +10,22 @@ Atendemos tanto empresas (B2B) quanto consumidores finais (B2C), oferecendo solu
 
 
 Estrutura do site:
-
-  •	MenuCompra: Seção com formulário para solicitar orçamento, onde o usuário preenche nome, e-mail, empresa, escolhe o serviço desejado e deixa uma mensagem. Inclui botões para enviar o formulário e fechar o menu. Após o envio, exibe mensagem de sucesso sem recarregar a página.
-
-  •	Checkout: Seção oculta que exibe o carrinho de compras com itens adicionados e subtotal atualizado. Contém formulário para finalizar a compra, coletando dados do cliente e forma de pagamento. Possui botão para fechar o checkout e mostra mensagem de sucesso após confirmação.
-
-  •	Header: Utilizamos a tag <nav> para criar a barra superior com botões que direcionam para diferentes seções do site, incluindo Comunicação Visual, Copiadora, Impressão Digital, Sobre Nós e Contato.
-
-  •	Primeira seção do <main>: Apresentamos as soluções gráficas da empresa, com um botão para solicitar orçamento voltado para empresas, além do acesso à visualização dos produtos.
-
-  •	Segunda seção: Destinada às soluções para o público B2B. Incluímos imagens ilustrativas e criamos uma div chamada "grade de serviços" para organizar ícones em formato de quadrados, tornando a apresentação mais visual e atraente.
-
-  •	Terceira seção: Focada nos produtos para o público B2C, estruturada em uma div chamada "grade de produtos" para facilitar a estilização via CSS e melhorar a organização visual.
-
-  •	Quarta seção: Apresenta um resumo da história da gráfica, reforçando nossa trajetória e valores.
-
-  •	Footer: Contém links úteis para contato e navegação para outras partes do site.
+  
+    •	MenuCompra: Seção com formulário para solicitar orçamento, onde o usuário preenche nome, e-mail, empresa, escolhe o serviço desejado e deixa uma mensagem. Inclui botões para enviar o formulário e fechar o menu. Após o envio, exibe mensagem de sucesso sem recarregar a página.
+  
+    •	Checkout: Seção oculta que exibe o carrinho de compras com itens adicionados e subtotal atualizado. Contém formulário para finalizar a compra, coletando dados do cliente e forma de pagamento. Possui botão para fechar o checkout e mostra mensagem de sucesso após confirmação.
+  
+    •	Header: Utilizamos a tag <nav> para criar a barra superior com botões que direcionam para diferentes seções do site, incluindo Comunicação Visual, Copiadora, Impressão Digital, Sobre Nós e Contato.
+  
+    •	Primeira seção do <main>: Apresentamos as soluções gráficas da empresa, com um botão para solicitar orçamento voltado para empresas, além do acesso à visualização dos produtos.
+  
+    •	Segunda seção: Destinada às soluções para o público B2B. Incluímos imagens ilustrativas e criamos uma div chamada "grade de serviços" para organizar ícones em formato de quadrados, tornando a apresentação mais visual e atraente.
+  
+    •	Terceira seção: Focada nos produtos para o público B2C, estruturada em uma div chamada "grade de produtos" para facilitar a estilização via CSS e melhorar a organização visual.
+  
+    •	Quarta seção: Apresenta um resumo da história da gráfica, reforçando nossa trajetória e valores.
+  
+    •	Footer: Contém links úteis para contato e navegação para outras partes do site.
 
 Na página “Sobre Nós”:
 
