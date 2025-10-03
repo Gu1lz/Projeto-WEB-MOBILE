@@ -1,16 +1,10 @@
 <img width="1915" height="902" alt="image" src="https://github.com/user-attachments/assets/41769188-ae56-4029-91fe-3d3bb320e743" />Esse GitHub é o repositório do Projeto Lagarta de Web Mobile.
 
-Nosso objetivo é desenvolver um site para a Gráfica GR Soluções Gráficas, empresa que atua há 25 anos no mercado, localizada em Sumaré.
+Nosso site foi desenvolvido para oferecer uma navegação fluida e intuitiva, garantindo que você encontre tudo o que precisa de forma rápida e clara. Desde a busca até a visualização dos produtos, pensamos em cada detalhe para facilitar sua jornada e tornar sua experiência agradável.
+Na página principal, você encontra todos os nossos produtos organizados de maneira prática e objetiva, para que a escolha seja fácil e sem complicações. Navegue com conforto e encontre exatamente o que procura, sem perder tempo.
+Além disso, nosso site é totalmente responsivo, adaptando-se perfeitamente a qualquer dispositivo — seja desktop, tablet ou smartphone — para que você tenha acesso total, a qualquer hora e em qualquer lugar.
+Atendemos tanto empresas (B2B) quanto consumidores finais (B2C), oferecendo soluções personalizadas para cada público. Se você é empresário, encontrará opções pensadas para otimizar seu negócio. Se é consumidor, encontrará produtos e serviços que atendem às suas necessidades do dia a dia.
 
-O site será um shop B2B e B2C, oferecendo os seguintes serviços:
-
-* Produtos e serviços de gráfica (impressão em geral).
-
-* Produtos populares da gráfica, com preços e descrições.
-
-* Soluções gráficas para empresas (B2B), com serviços recorrentes.
-
-Atualmente, estamos na primeira etapa: idealização e prototipagem do projeto. Já desenvolvemos os wireframes que mostram como o site será estruturado:
 
 Wireframe Desktop:
 
