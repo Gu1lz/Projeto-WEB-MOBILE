@@ -29,52 +29,53 @@ Estrutura do site:
 
 Na página “Sobre Nós”:
 
-  •	Mantivemos o <nav> do header para navegação consistente.
-
-  •	Criamos um container dedicado a contar a história completa da gráfica.
-
-  •	Em uma lista não ordenada (ul com classe lista-sobre), desenvolvemos balões de texto estilizados com CSS para destacar informações importantes.
-
-  •	Nos títulos (h2), adicionamos uma linha lateral decorativa usando CSS para dar um toque visual diferenciado.
+    •	Mantivemos o <nav> do header para navegação consistente.
+  
+    •	Criamos um container dedicado a contar a história completa da gráfica.
+  
+    •	Em uma lista não ordenada (ul com classe lista-sobre), desenvolvemos balões de texto estilizados com CSS para destacar informações importantes.
+  
+    •	Nos títulos (h2), adicionamos uma linha lateral decorativa usando CSS para dar um toque visual diferenciado.
 
 No Javascript: 
 
 Funcionalidade Orçamento: 
 
-  •	abrirOrca(): Torna visível o menu de orçamento (chamado de menuCompra), permitindo que o usuário veja as opções de envio do orçamento.
-
-  •	fecharOrca(): Fecha o menu de orçamento, ocultando o menuCompra da interface.
-
-  •	enviarOrcamento(): Coleta o nome do usuário do formulário e exibe uma mensagem de sucesso personalizada, agradecendo pelo envio do orçamento. Reseta o formulário de orçamento, limpando os campos. Após 3 segundos, fecha o menu de orçamento e oculta a mensagem de sucesso. Retorna false para evitar que a página seja recarregada.
+    •	abrirOrca(): Torna visível o menu de orçamento (chamado de menuCompra), permitindo que o usuário veja as opções de envio do orçamento.
+  
+    •	fecharOrca(): Fecha o menu de orçamento, ocultando o menuCompra da interface.
+  
+    •	enviarOrcamento(): Coleta o nome do usuário do formulário e exibe uma mensagem de sucesso personalizada, agradecendo pelo envio do orçamento. Reseta o formulário de orçamento, limpando os campos. Após 3 segundos, fecha o menu de orçamento e oculta a mensagem de sucesso. Retorna false para evitar que a página seja recarregada.
 
 Funcionalidade Menu Sanduiche: 
 
-  •	menuSan(): Alterna a visibilidade do menu "sandwich" (ícone de hambúrguer) para dispositivos móveis. Ao ser acionada, ela adiciona ou remove a classe active, tornando o menu visível ou oculto, conforme o estado atual.
+    •	menuSan(): Alterna a visibilidade do menu "sandwich" (ícone de hambúrguer) para dispositivos móveis. Ao ser acionada, ela adiciona ou remove a classe active, tornando o menu visível ou oculto, conforme o estado atual.
+   
 Funcionalidade Comprar: 
 
-  •	abrirCheckout(): Torna visível a área do checkout (carrinho de compras), exibindo os itens que foram adicionados ao carrinho.
-
-  •	fecharCheckout(): Oculta a área do checkout, removendo a visualização do carrinho de compras.
-
-  •	adicionarAoCheckout(nome, preco): Adiciona um item ao carrinho de compras (checkout), armazenando o nome e o preço do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens no checkout e recalcular o subtotal.
-
-  •	removerDoCheckout(indice): Remove um item do carrinho de compras, baseado no índice do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens e recalcular o subtotal após a remoção.
-
-  •	atualizarCheckout(): Atualiza a visualização dos itens no checkout, exibindo o nome e o preço de cada item. Calcula o valor total (subtotal) de todos os itens no carrinho e o exibe na interface.
+    •	abrirCheckout(): Torna visível a área do checkout (carrinho de compras), exibindo os itens que foram adicionados ao carrinho.
+  
+    •	fecharCheckout(): Oculta a área do checkout, removendo a visualização do carrinho de compras.
+  
+    •	adicionarAoCheckout(nome, preco): Adiciona um item ao carrinho de compras (checkout), armazenando o nome e o preço do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens no checkout e recalcular o subtotal.
+  
+    •	removerDoCheckout(indice): Remove um item do carrinho de compras, baseado no índice do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens e recalcular o subtotal após a remoção.
+  
+    •	atualizarCheckout(): Atualiza a visualização dos itens no checkout, exibindo o nome e o preço de cada item. Calcula o valor total (subtotal) de todos os itens no carrinho e o exibe na interface.
 
 Funcionalidade Comprar:
 
-  •	abrirCheckout(): Torna visível a área do checkout (carrinho de compras), exibindo os itens que foram adicionados ao carrinho.
-  
-  •	 fecharCheckout(): Oculta a área do checkout, removendo a visualização do carrinho de compras.
-  
-  •	 adicionarAoCheckout(nome, preco): Adiciona um item ao carrinho de compras (checkout), armazenando o nome e o preço do item no array subtotal. Chama a função 
-  
-  •  atualizarCheckout() para atualizar a lista de itens no checkout e recalcular o subtotal.
-  
-  •  removerDoCheckout(indice): Remove um item do carrinho de compras, baseado no índice do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens e recalcular o subtotal após a remoção.
-  
-  •  atualizarCheckout(): Atualiza a visualização dos itens no checkout, exibindo o nome e o preço de cada item. Calcula o valor total (subtotal) de todos os itens no carrinho e o exibe na interface. 
+    •	abrirCheckout(): Torna visível a área do checkout (carrinho de compras), exibindo os itens que foram adicionados ao carrinho.
+    
+    •	 fecharCheckout(): Oculta a área do checkout, removendo a visualização do carrinho de compras.
+    
+    •	 adicionarAoCheckout(nome, preco): Adiciona um item ao carrinho de compras (checkout), armazenando o nome e o preço do item no array subtotal. Chama a função 
+    
+    •  atualizarCheckout() para atualizar a lista de itens no checkout e recalcular o subtotal.
+    
+    •  removerDoCheckout(indice): Remove um item do carrinho de compras, baseado no índice do item no array subtotal. Chama a função atualizarCheckout() para atualizar a lista de itens e recalcular o subtotal após a remoção.
+    
+    •  atualizarCheckout(): Atualiza a visualização dos itens no checkout, exibindo o nome e o preço de cada item. Calcula o valor total (subtotal) de todos os itens no carrinho e o exibe na interface. 
 
 Wireframe Desktop:
 
