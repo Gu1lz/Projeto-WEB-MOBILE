@@ -3,65 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nós - GR Soluções Gráficas</title>
+    <title>GR Soluções Gráficas - 25 Anos de Experiência</title>
     <link rel="stylesheet" href="style.css">
+    <script src="init.js" > </script>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1 class="logo">GR</h1>
-            <ul class="menu-navegacao">
-                <li><a href="index.html#comunicacao">Comunicação Visual</a></li>
-                <li><a href="index.html#copiadora">Copiadora</a></li>
-                <li><a href="index.html#impressao">Impressão Digital</a></li>
-                <li><a href="sobre.html" class="ativo">Sobre</a></li>
-                <li><a href="index.html#contato">Contato</a></li>
-            </ul>
-            <a href="index.html#orcamento" class="botao-orcamento">Orçamento</a>
-        </nav>
-    </header>
+	<section id="menuCompra" onsubmit="return enviarOrcamento();"> 
+	    <article>
+		<button onclick="fecharOrca()">✖</button>
+		<h2>Solicitar Orçamento</h2>
+		<form id="formOrcamento">
+		    <label for="nome">Nome:</label>
+		    <input type="text" id="nome" name="nome" required>
 
+		    <label for="email">E-mail:</label>
+		    <input type="email" id="email" name="email" required>
+            <label for="end">Empresa:</label>
+		    <input type="text" id="end" name="end" required>
+
+		    <label for="servico">Serviço desejado:</label>
+		    <select id="servico" name="servico" required>
+			<option value="">Selecione</option>
+			<option value="comunicacao">Comunicação Visual</option>
+			<option value="copiadora">Copiadora</option>
+			<option value="impressao">Impressão Digital</option>
+		    </select>
+
+		    <label for="mensagem">Mensagem:</label>
+		    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+		    <button type="submit">Enviar</button>
+		    <div id="mensagemSucesso"></div>
+		</form>
+	    </article>
+	</section>
+	<section id="checkout" style="display:none;">
+	    <article class="checkout-cartao">
+		<button class="fechar" onclick="fecharCheckout()">✖</button>
+		<h2>Finalizar Compra</h2>
+
+		<div id="itensCheckout"></div> 	
+		<p id="subtotal">Subtotal: R$ 0,00</p>
+
+		<form id="formCheckout" onsubmit="return enviarCheckout();">
+		    <label for="nomeCliente">Nome:</label>
+		    <input type="text" id="nomeCliente" name="nomeCliente" required>
+            <br>
+		    <label for="end">Endereço:</label>
+		    <input type="text" id="end" name="end" required>
+            <br>
+		    <label for="emailCliente">E-mail:</label>
+		    <input type="email" id="emailCliente" name="emailCliente" required>
+            <br>
+		    <label for="pagamento">Forma de pagamento</label>
+		    <select id="pagamento" name="pagamento" required>
+			<option value="">Selecione</option>
+			<option value="cartao">Cartão de Crédito</option>
+			<option value="pix">PIX</option>
+			<option value="boleto">Boleto</option>
+		    </select>
+
+		    <button type="submit">Confirmar Compra</button>
+		    <div id="mensagemSucessoCheckout"></div>
+		</form>
+	    </article>
+	</section>
+	<header>
+		  <nav>
+		    <img src="logo.jpeg" id="logo" alt="Logo">
+
+		    <button class="menu-san" onclick="menuSan()">☰</button>
+
+		    <ul class="menu-navegacao" id="menu">
+		      <li><a href="#comunicacao">Comunicação Visual</a></li>
+		      <li><a href="#copiadora">Copiadora</a></li>
+		      <li><a href="#impressao">Impressão Digital</a></li>
+		      <li><a href="sobre.html">Sobre Nós</a></li>
+		      <li><a href="#contato">Contato</a></li>
+		    </ul>
+
+		    <button id="botao-orcamento" onclick="abrirOrca();">Orçamento</button>
+		  </nav>
+	</header>
     <main>
-        <section class="sobre-detalhado">
-            <div class="container">
-                <h2 class="titulo-secao">Nossa História</h2>
-                <p>
-                    Fundada em 2000, a <strong>GR Soluções Gráficas</strong> nasceu com o objetivo de oferecer serviços gráficos 
-                    de qualidade superior, aliando tecnologia de ponta a um atendimento humano e personalizado. 
-                    Ao longo de 25 anos de atuação, nos consolidamos como referência no mercado de <em>comunicação visual</em>, 
-                    impressão digital e soluções gráficas para empresas de todos os portes.
-                </p>
-                
-                <p>
-                    Nossa missão é ajudar negócios a se destacarem através de materiais impressos que transmitem 
-                    confiança, profissionalismo e impacto visual. Acreditamos que cada detalhe importa, por isso 
-                    cuidamos de cada projeto como se fosse único.
-                </p>
+        <section class="destaque">
+            <article class="conteudo-destaque">
+                <h2>Soluções Gráficas</h2>
+                <p>Com 25 anos de experiência, oferecemos comunicação visual, serviços de copiadora e impressão digital de alta qualidade, ajudando a impulsionar seu negócio com soluções confiáveis e eficientes.</p>
+                <article class="botoes-destaque">
+                    <a href="#orcamento" class="botao-primario" onclick="abrirOrca();"">Solicitar Orçamento</a>
+                    <a href="#produtos" class="botao-secundario">Ver Produtos</a>
+                </article>
+            </article>
+        </section>
 
-                <h2 class="titulo-secao">Por que escolher a GR?</h2>
-                <ul class="lista-sobre">
-                    <li>✔ 25 anos de experiência no setor gráfico</li>
-                    <li>✔ Atendimento personalizado para cada cliente</li>
-                    <li>✔ Equipamentos modernos e de alta performance</li>
-                    <li>✔ Compromisso com prazos e qualidade</li>
-                </ul>
+        <section class="servicos" id="servicos">
+            <h2 class="titulo-secao">Nossas Principais Soluções Para Empresas B2B</h2>
+            <article class="grade-servicos">
+                <article class="cartao-servico" id="comunicacao">
+                    <span class="icone-servico">📢</span>
+                    <h3>Comunicação Visual</h3>
+                    <p>Banners, placas, adesivos e sinalização completa para sua empresa.</p>
+                    <a href="#" class="link-servico">Saiba mais →</a>
+                </article>
 
-                <h2 class="titulo-secao">Nossa Estrutura</h2>
-                <p>
-                    Contamos com um parque gráfico completo, pronto para atender desde pequenas tiragens até 
-                    grandes produções em escala. Nossa equipe é formada por profissionais especializados em 
-                    design, impressão e acabamento.
-                </p>
+                <article class="cartao-servico" id="copiadora">
+                    <span class="icone-servico">📋</span>
+                    <h3>Copiadora</h3>
+                    <p>Serviços de cópia rápida e eficiente para documentos e materiais.</p>
+                    <a href="#" class="link-servico">Saiba mais →</a>
+                </article>
 
-                <figure class="imagem-sobre-detalhada">
-                    <img src="Screenshot.png" alt="Equipe GR Soluções Gráficas">
-                    <figcaption>Equipe GR Soluções Gráficas em ação</figcaption>
-                </figure>
-            </div>
+                <article class="cartao-servico" id="impressao">
+                    <span class="icone-servico">🖨️</span>
+                    <h3>Impressão Digital</h3>
+                    <p>Impressão de alta qualidade em diversos formatos e materiais.</p>
+                    <a href="#" class="link-servico">Saiba mais →</a>
+                </article>
+            </article>
+        </section>
+
+        <section class="produtos" id="produtos">
+            <h2 class="titulo-secao">Produtos B2C</h2>
+            <p class="subtitulo-produtos">Escolha entre nossos principais produtos</p>
+            <article class="grade-produtos">
+                <article class="cartao-produto" onclick="adicionarAoCheckout('Cartão de Visita', 200)">
+                    <img class="imagem-produto" src="VISITA.png">Cartão de Visita</img>
+                    <div class="info-produto">
+                        <h4>Cartões de Visita</h4>
+                        <p class="preco-produto">Pack com 20 por R$ 200,00</p>
+                    </div>
+                </article>
+
+                <article class="cartao-produto">
+                    <img class="imagem-produto" src="BANNER.jpg" onclick="adicionarAoCheckout('Banner', 55)">Banner</img>
+                    <div class="info-produto">
+                        <h4>Banners</h4>
+                        <p class="preco-produto">A partir de R$ 55,00</p>
+                    </div>
+                </article>
+
+                <article class="cartao-produto">
+                    <img class="imagem-produto" src="FLYER.png" onclick="adicionarAoCheckout('Flyer', 150)">Flyer</img>
+                    <div class="info-produto">
+                        <h4>Flyers</h4>
+                        <p class="preco-produto">Pack com 20 por R$ 150,00</p>
+                    </div>
+                </article>
+
+                <article class="cartao-produto">
+                    <img class="imagem-produto" src="ADESSIVO.jpg" onclick="adicionarAoCheckout('Adesivos', 170)">Adesivo</img>
+                    <div class="info-produto">
+                        <h4>Adesivos</h4>
+                        <p class="preco-produto">Pack com 20 por R$ 170,00</p>
+                    </div>
+                </article>
+            </article>
+        </section>
+
+        <section class="sobre-nos" id="sobre">
+            <article class="conteudo-sobre">
+		<a href="sobre.html" id="sobr"> Saiba mais sobre nossa historia clicando aqui </a>
+                <img class="imagem-sobre" src="Screenshot.png"></img>
+            </article>
+        </section>
+
+        <section class="mapa">
+            <figure class="container-mapa"></figure>
         </section>
     </main>
 
-    <footer>
+    <footer id="contato">
         <section class="conteudo-rodape">
             <aside class="secao-rodape">
                 <div class="icones-sociais">
@@ -75,9 +187,9 @@
             <nav class="secao-rodape">
                 <h3>Serviços</h3>
                 <ul>
-                    <li><a href="index.html#comunicacao">Comunicação Visual</a></li>
-                    <li><a href="index.html#copiadora">Copiadora</a></li>
-                    <li><a href="index.html#impressao">Impressão Digital</a></li>
+                    <li><a href="#comunicacao">Comunicação Visual</a></li>
+                    <li><a href="#copiadora">Copiadora</a></li>
+                    <li><a href="#impressao">Impressão Digital</a></li>
                     <li><a href="#">Design Gráfico</a></li>
                 </ul>
             </nav>
@@ -103,8 +215,9 @@
         </section>
 
         <section class="rodape-inferior">
-            <p>&copy; 2025 GR Soluções Gráficas. Todos os direitos reservados.</p>
+            <p>2025 GR Soluções Gráficas. Todos os direitos reservados.</p>
         </section>
     </footer>
 </body>
 </html>
+
